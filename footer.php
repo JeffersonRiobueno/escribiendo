@@ -10,9 +10,6 @@
       <a href="<?php echo bloginfo('url')."/acerca-de/";?>" target="_blank">Acerca de...</a>
       <a href="<?php echo bloginfo('url')."/politica-de-privacidad";?>" target="_blank">Política  de Privacidad</a>
       <a href="<?php echo bloginfo('url')."/politica-de-devoluciones";?>" target="_blank">Política de devoluciones</a>
-      <a href="<?php echo bloginfo('url')."/shop";?>" target="_blank">Tienda</a>
-      <a href="<?php echo bloginfo('url')."/shop";?>" target="_blank">Tienda</a>
-      <a href="<?php echo bloginfo('url')."/shop";?>" target="_blank">Tienda</a>
     </div>
     <div class="box">
       <aside>

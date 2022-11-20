@@ -42,7 +42,7 @@ jobs:
           docker tag $IMAGE_NAME $IMAGE_ID:latest
           docker push $IMAGE_ID:latest
           curl https://alert.jemaapp.com/api/send?TEXT=$IMAGE_NAME
-      #- name: Deploy
-        #run: curl http://159.89.49.180:8080/?pfolder=${{ secrets.RUTA }}
+      - name: Deploy
+        run: curl http://159.89.49.180:8080/?pfolder=${{ secrets.RUTA }}
         
         
