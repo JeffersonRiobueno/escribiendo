@@ -1,0 +1,61 @@
+
+
+# BEGIN WordPress
+# Las directivas (líneas) entre `BEGIN WordPress` y `END WordPress` se generan dinámicamente
+# , y solo se deberían modificar mediante filtros de WordPress.
+# Cualquier cambio en las directivas que hay entre esos marcadores se sobreescribirán.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+# Performace optimization
+
+# BEGIN Compress text files
+<ifModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/xml text/css text/plain
+  AddOutputFilterByType DEFLATE image/svg+xml application/xhtml+xml application/xml
+  AddOutputFilterByType DEFLATE application/rdf+xml application/rss+xml application/atom+xml
+  AddOutputFilterByType DEFLATE text/javascript application/javascript application/x-javascript application/json
+  AddOutputFilterByType DEFLATE application/x-font-ttf application/x-font-otf
+  AddOutputFilterByType DEFLATE font/truetype font/opentype
+</ifModule>
+# END Compress text files
+
+# BEGIN Expire headers
+<ifModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 5 seconds"
+  ExpiresByType image/x-icon "access plus 31536000 seconds"
+  ExpiresByType image/jpeg "access plus 31536000 seconds"
+  ExpiresByType image/png "access plus 31536000 seconds"
+  ExpiresByType image/svg+xml "access plus 31536000 seconds"
+  ExpiresByType image/gif "access plus 31536000 seconds"
+  ExpiresByType application/x-shockwave-flash "access plus 31536000 seconds"
+  ExpiresByType text/css "access plus 31536000 seconds"
+  ExpiresByType text/javascript "access plus 31536000 seconds"
+  ExpiresByType application/javascript "access plus 31536000 seconds"
+  ExpiresByType application/x-javascript "access plus 31536000 seconds"
+</ifModule>
+# END Expire headers
+
+<ifModule mod_rewrite.c>
+  RewriteEngine On 
+  RewriteCond %{HTTP_ACCEPT} image/webp
+  RewriteCond %{REQUEST_URI}  (?i)(.*)(\.jpe?g|\.png)$ 
+  RewriteCond %{DOCUMENT_ROOT}%1.webp -f
+  RewriteRule (?i)(.*)(\.jpe?g|\.png)$ %1\.webp [L,T=image/webp,R] 
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header append Vary Accept env=REDIRECT_accept
+</IfModule>
+
+AddType image/webp .webp
