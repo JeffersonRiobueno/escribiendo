@@ -493,6 +493,7 @@ footer .fila .box  aside{
 }
 footer .fila .box  aside a{
     display: block;
+    width: 45px;
 }
 footer .fila .box  aside a img{
     width: 100%;
