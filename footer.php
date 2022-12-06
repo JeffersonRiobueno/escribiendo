@@ -20,11 +20,9 @@
           <img src="<?php echo get_template_directory_uri().'/img/ig.png'?>" alt="">
         </a>
         <a href="">
-          <img src="<?php echo get_template_directory_uri().'/img/tw.png'?>" alt="">
+          <img src="<?php echo get_template_directory_uri().'/img/telegram.png'?>" alt="">
         </a>
-        <a href="">
-          <img src="<?php echo get_template_directory_uri().'/img/fb.png'?>" alt="">
-        </a>
+       
       </aside>
       <p>© EscribiendoEnConexion 2022</p>
     </div>

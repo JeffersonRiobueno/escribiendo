@@ -22,11 +22,14 @@
 						<p>Las palabras más que letras son el camino para descubrir nuestro mundo interno y llegar a la comprensión de la realidad que hemos cocreado.</p>
 						<p>Tengo un proyecto llamado escribiendo en conexión en el cual promuevo la escritura como un canal de trasformación personal en pro del bienestar integral.</p>
 					</div>
+				<a href="/la-palabra-como-semilla/" class="btn">Más Info</a>
+
 				</div>
 			</div>
 		</div>
 		<div class="podcast">
-			<h2>Podcast PALABRAS en MOVIMIENTO</h2>
+			<h2>Podcast</h2>
+			<h2>PALABRAS en MOVIMIENTO</h2>
 			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore saepe facilis dolores doloribus voluptate tempora ab necessitatibus! Repudiandae corrupti dolor ut distinctio expedita.</p>
 			<div class="content">
 				<div class="box box1">
