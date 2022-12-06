@@ -16,10 +16,11 @@
 					<img src="<?php echo get_template_directory_uri().'/img/img_home.jpg'?>" alt="">
 				</div>
 				<div class="box_text">
-					<div class="title">HOLA, Te cuento que hacemos</div>
+					<div class="title">HOLA, Soy Carmen Goncalves, </div>
 					<div class="text">
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere iste, blanditiis distinctio magnam quo ipsam labore eum consequuntur odio fugiat, ratione repudiandae! Voluptates ullam deserunt esse incidunt aliquam impedit dolorem?</p>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere iste, blanditiis distinctio magnam quo ipsam labore eum consequuntur odio fugiat, ratione repudiandae! Voluptates ullam deserunt esse incidunt aliquam impedit dolorem?</p>
+						<p>Tengo un profundo interés por las palabras como herramienta de autoconocimiento y, escribir es parte de mi vida cotidiana.</p>
+						<p>Las palabras más que letras son el camino para descubrir nuestro mundo interno y llegar a la comprensión de la realidad que hemos cocreado.</p>
+						<p>Tengo un proyecto llamado escribiendo en conexión en el cual promuevo la escritura como un canal de trasformación personal en pro del bienestar integral.</p>
 					</div>
 				</div>
 			</div>
