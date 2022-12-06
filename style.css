@@ -127,34 +127,34 @@ header .logo{
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     padding: 17px 0;
     /* font-weight: 500; */
     /* padding-top: 10px; */
     /* font-family: 'Teko', sans-serif; */
-    width: 145px;
+    width: 370px;
     height: 100%;
 }
-header .logo img{height: 100%;width: auto;}
+header .logo img{width: 100%;height: auto;}
 header .menu{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 78%;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 40%;
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     /* padding-right: 20px; */
     -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
 }
 header .menu ul{
     display: -webkit-box;
@@ -526,7 +526,9 @@ footer .fila .box p{
     text-align: center;
 }
 .post h2{}
-.post h3{}
+.post h3{
+    margin-bottom: 10px;
+}
 .post p{
     font-size: 18px;
     line-height: 24px;
@@ -545,7 +547,11 @@ footer .fila .box p{
     line-height: 24px;
     margin-bottom: 20px;
 }
-.post ul li{}
+.post ul li{
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
 
 @media screen and (max-width: 800px){
     .not_movil{
@@ -561,6 +567,7 @@ footer .fila .box p{
         /* font-size: 1.7rem; */
         /* padding-left: 25px; */
         width: auto;
+        max-width: 70%;
     }
     header .menu{
     position: fixed;
