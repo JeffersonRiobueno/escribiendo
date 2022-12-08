@@ -36,7 +36,7 @@
 					<a href="" style="background-image: url(<?php echo get_template_directory_uri().'/img/podcast.jpg'?>);" target="_blank"></a>
 				</div>
 				<div class="box box2">
-					<a href="https://open.spotify.com/show/69F1blfhieEwTOOTxOkemp" style="background-image: url(<?php echo get_template_directory_uri().'/img/spotify.png'?>);" target="_blank"></a>
+					<a href="https://open.spotify.com/show/69F1blfhieEwTOOTxOkemp" style="background-image: url(<?php echo get_template_directory_uri().'/img/spotify.jpg'?>);" target="_blank"></a>
 				</div>
 				<div class="box box3">
 					<a href="" style="background-image: url(<?php echo get_template_directory_uri().'/img/Castbox.jpg'?>);" target="_blank"></a>
