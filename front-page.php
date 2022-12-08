@@ -22,7 +22,7 @@
 						<p>Las palabras más que letras son el camino para descubrir nuestro mundo interno y llegar a la comprensión de la realidad que hemos cocreado.</p>
 						<p>Tengo un proyecto llamado escribiendo en conexión en el cual promuevo la escritura como un canal de trasformación personal en pro del bienestar integral.</p>
 					</div>
-				<a href="/la-palabra-como-semilla/" class="btn">Más Info</a>
+				<a href="/la-palabra-como-semilla/" class="btn">Conocer programa</a>
 
 				</div>
 			</div>
@@ -33,13 +33,13 @@
 			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore saepe facilis dolores doloribus voluptate tempora ab necessitatibus! Repudiandae corrupti dolor ut distinctio expedita.</p>
 			<div class="content">
 				<div class="box box1">
-					<a href="https://open.spotify.com/show/69F1blfhieEwTOOTxOkemp" style="background-image: url(<?php echo get_template_directory_uri().'/img/spotify.jpg'?>);" target="_blank"></a>
+					<a href="" style="background-image: url(<?php echo get_template_directory_uri().'/img/podcast.jpg'?>);" target="_blank"></a>
 				</div>
 				<div class="box box2">
-					<a href="https://podcasts.apple.com/podcast/id1574563152?ign-itscg=30200&ign-itsct=lt_p	" style="background-image: url(<?php echo get_template_directory_uri().'/img/apple_podcasts.png'?>);" target="_blank"></a>
+					<a href="https://open.spotify.com/show/69F1blfhieEwTOOTxOkemp" style="background-image: url(<?php echo get_template_directory_uri().'/img/spotify.png'?>);" target="_blank"></a>
 				</div>
 				<div class="box box3">
-					<a href="https://castbox.fm/channel/id4383370?utm_campaign=ex_share_ch&utm_medium=exlink&country=us" style="background-image: url(<?php echo get_template_directory_uri().'/img/Castbox.jpg'?>);" target="_blank"></a>
+					<a href="" style="background-image: url(<?php echo get_template_directory_uri().'/img/Castbox.jpg'?>);" target="_blank"></a>
 				</div>
 			</div>
 		</div>
