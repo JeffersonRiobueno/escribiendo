@@ -260,16 +260,16 @@ header .menu ul li a:hover{
     margin: auto;
 }
 .about .box .img{
-    width: 40%;
+    width: 50%;
 }
 .about .box .img img{
     width: auto;
-    height: 360px;
+    height: 440px;
     margin: auto;
     display: block;
 }
 .about .box .box_text{
-    width: 60%;
+    width: 48%;
     padding-left: 30px;
 }
 .about .box .box_text .title{
