@@ -173,16 +173,31 @@ header .menu ul li{
     /* padding: 0 10px; */
     list-style: none;
 }
+header .menu ul li#menu-item-17{
+    background: var(--color-a1);
+    border: 1px solid var(--color-a1);
+}
+header .menu ul li#menu-item-17:hover{
+    background: #fff;
+}
 header .menu ul li a{
     font-size: 20px;
     font-weight: 600;
     width: 100%;
     display: block;
-    padding: 18px;
+    padding: 10px 18px;
+}
+header .menu ul li#menu-item-17 a{
+    color: #fff;
+    font-weight: bold;
 }
 header .menu ul li a:hover{
     /* font-weight: bold; */
     font-style: italic;
+}
+header .menu ul li#menu-item-17 a:hover{
+    font-style: unset;
+    color: var(--color-a1);
 }
 .h_cart{
     width: 50px;
