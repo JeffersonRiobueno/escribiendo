@@ -8,12 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url') ?>?v=0.0.1">
+	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url') ?>?v=0.0.2">
 	<script src="<?php echo get_template_directory_uri().'/js/jquery.js'?>" type="text/javascript"></script>
 	<link rel="shortcut icon" type="image/x-icon" href="<?php echo get_template_directory_uri().'/img/logo.png'?>" />
     <?php wp_head(); ?>
     <div itemprop="brand" itemtype="https://schema.org/Brand" itemscope>
-        <meta itemprop="name" content="Jefferson  Riobueno" />
+        <meta itemprop="name" content="Escribiendo en Conexion" />
     </div>
 </head>
     <body id="body">

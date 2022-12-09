@@ -33,13 +33,13 @@
 			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore saepe facilis dolores doloribus voluptate tempora ab necessitatibus! Repudiandae corrupti dolor ut distinctio expedita.</p>
 			<div class="content">
 				<div class="box box1">
-					<a href="" style="background-image: url(<?php echo get_template_directory_uri().'/img/podcast.jpg'?>);" target="_blank"></a>
+					<div style="background-image: url(<?php echo get_template_directory_uri().'/img/podcast.jpg'?>);" ></div>
 				</div>
 				<div class="box box2">
 					<a href="https://open.spotify.com/show/69F1blfhieEwTOOTxOkemp" style="background-image: url(<?php echo get_template_directory_uri().'/img/spotify.jpg'?>);" target="_blank"></a>
 				</div>
 				<div class="box box3">
-					<a href="" style="background-image: url(<?php echo get_template_directory_uri().'/img/Castbox.jpg'?>);" target="_blank"></a>
+					<a href="https://anchor.fm/palabrasenmovimiento" style="background-image: url(<?php echo get_template_directory_uri().'/img/anchor.jpg'?>);" target="_blank"></a>
 				</div>
 			</div>
 		</div>

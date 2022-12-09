@@ -16,10 +16,10 @@
         <a href="">
           <img src="<?php echo get_template_directory_uri().'/img/fb.png'?>" alt="">
         </a>
-        <a href="">
+        <a href="https://instagram.com/escribiendoenconexion">
           <img src="<?php echo get_template_directory_uri().'/img/ig.png'?>" alt="">
         </a>
-        <a href="">
+        <a href="https://t.me/enconexionbyCG">
           <img src="<?php echo get_template_directory_uri().'/img/telegram.png'?>" alt="">
         </a>
        
