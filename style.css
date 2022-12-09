@@ -711,7 +711,9 @@ header .icon_menu2:after{
     .podcast .content .box{
     width: 320px;
     height: 200px;
+    /* display: none; */
 }
+.podcast .content .box1{display: none;}
 
 
 
