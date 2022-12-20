@@ -31,12 +31,6 @@
         </div>
       </div>
       
-      <!-- Comentarios -->
-      <?php //comments_template(); ?>
-      <section class="sidebar">
-
-          <?php dynamic_sidebar('Barra'); ?>
-      </section>
   </section>
 
 </section>
