@@ -687,9 +687,9 @@ footer .fila .box  aside{
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    width: 210px;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 110px;
     margin: auto;
 }
 footer .fila .box  aside a{
