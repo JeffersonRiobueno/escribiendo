@@ -201,6 +201,26 @@ header .menu ul li#menu-item-17 a:hover{
     font-style: unset;
     color: var(--color-a1);
 }
+header  #menu-menu-top >li .sub-menu{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background: #fff;
+    width: 300px;
+    top: 91px;
+}
+
+header  #menu-menu-top >li .sub-menu li a{
+    display: block;
+    padding: 10px;
+    text-align: left;
+}
+header  #menu-menu-top >li .sub-menu li a:hover{
+  background: #ebebeb;
+}
+header  #menu-menu-top  >li:hover .sub-menu{
+  display:block
+}
 .h_cart{
     width: 50px;
     /* order: 1; */

@@ -26,7 +26,8 @@
                     <span></span>
                     <span></span>
                 </div>
-                <?php wp_nav_menu( array( 'theme_location' => 'navegation' ) ); ?>	
+                <?php wp_nav_menu( array( 'theme_location' => 'navegation' ) ); ?>
+                <?php wp_nav_menu( array( 'theme_location' => 'navegation_movil' ) ); ?>
                 
             </div>
             <div class="h_cart">
