@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url') ?>?v=0.0.6">
+	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url') ?>?v=0.0.7">
 	<script src="<?php echo get_template_directory_uri().'/js/jquery.js'?>" type="text/javascript"></script>
 	<link rel="shortcut icon" type="image/x-icon" href="<?php echo get_template_directory_uri().'/img/logo.png'?>" />
     <?php wp_head(); ?>
