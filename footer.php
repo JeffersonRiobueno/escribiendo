@@ -13,9 +13,7 @@
     </div>
     <div class="box">
       <aside>
-        <a href="">
-          <img src="<?php echo get_template_directory_uri().'/img/fb.png'?>" alt="">
-        </a>
+        
         <a href="https://instagram.com/escribiendoenconexion">
           <img src="<?php echo get_template_directory_uri().'/img/ig.png'?>" alt="">
         </a>

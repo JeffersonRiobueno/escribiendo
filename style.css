@@ -462,7 +462,7 @@ header .menu ul li#menu-item-17 a:hover{
 }
 .entrada .post > figure{
     width: 90%;
-    height: 270px;
+    height: 350px;
     background-size: cover;
     background-position: center;
     /* background-size: 100% auto; */
@@ -495,7 +495,7 @@ header .menu ul li#menu-item-17 a:hover{
 .entrada .post .cont-post{
     width: 90%;
     margin: auto;
-/*    padding: 20px 0;*/
+    padding: 20px 0;
 }
 .entrada .post .cont-post .datos{
     display: -webkit-box;
