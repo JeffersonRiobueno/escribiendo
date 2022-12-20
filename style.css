@@ -444,7 +444,167 @@ header .menu ul li#menu-item-17 a:hover{
 .bloque_destacado  .btn{
     margin: auto;
 }
+/**/
+.entrada, .search{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.entrada .post, .search .content{
+    width: 60%;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+}
+.entrada .post > figure{
+    width: 90%;
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+    /* background-size: 100% auto; */
+    position: relative;
+    margin: auto;
+}
 
+.entrada .post figure header{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff0),color-stop(50%, #000000a6), color-stop(80%, #000000d6));
+    background: -o-linear-gradient(top, #fff0 0%,#000000a6 50%, #000000d6 80%);
+    background: linear-gradient(180deg, #fff0 0%,#000000a6 50%, #000000d6 80%);
+}
+.entrada .post figure header h1{
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    padding: 40px 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    font-size: 36px;
+    color: #fff;
+}
+.entrada .post .cont-post{
+    width: 90%;
+    margin: auto;
+/*    padding: 20px 0;*/
+}
+.entrada .post .cont-post .datos{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #525252;
+}
+.entrada .post .cont-post .datos .cat{
+    font-weight: 800;
+    margin-right: 10px;
+}
+.entrada .post .cont-post .datos  .fecha{}
+.entrada .post .cont-post p{
+    margin-bottom: 24px;
+    line-height: 28px;
+    text-align: justify;
+    font-size: 21px;
+}
+
+.entrada .post .cont-post > ul{
+    padding-left: 50px;
+    margin-bottom: 40px;
+}
+.entrada .post .cont-post > ul li{
+    list-style: disc;
+    margin-bottom: 6px;
+    line-height: 28px;
+    font-size: 21px;
+}
+.entrada .post .cont-post a{}
+.entrada .post .cont-post h1{}
+.entrada .post .cont-post h2{
+    margin-bottom: 14px;
+}
+.entrada .post .cont-post h3{}
+.entrada .post .cont-post h4{}
+.entrada .post .cont-post h5{}
+.entrada .sidebar, .search .sidebar{
+    width: 100%;
+}
+.contenedor-blog{
+  width: 90%;
+  margin: 30px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.contenedor-blog .post{
+  width: 100%;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.contenedor-blog .post > h1{
+    width: 100%;
+    margin: 20px 0;
+    font-size: 28px;
+}
+.contenedor-blog .post .article{
+  display: block;
+  border: 1px solid #ccc;
+  margin-bottom: 40px;
+  width: 47%;
+}
+.contenedor-blog .post .article .img{
+  width: 100%;
+  height: 360px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+.contenedor-blog .post .article .img img{
+  width: 100%;
+}
+.contenedor-blog .post .article .box-texto{
+  padding: 20px 20px;
+}
+.contenedor-blog .post .article .box-texto span{
+  font-weight: 700;
+  color: #545454;
+  text-transform: uppercase;
+  margin-bottom: 9px;
+  display: block;
+  font-size: 15px;
+}
+.contenedor-blog .post .article .box-texto h3{
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.contenedor-blog .post .article .box-texto p{}
+.contenedor-blog .post .pagination{
+  width: 100%;
+}
+.contenedor-blog .sidebar{
+  width: 300px;
+}
 
 footer{
     padding: 50px 0;
@@ -717,7 +877,16 @@ header .icon_menu2:after{
 }
 .podcast .content .box1{display: none;}
 
-
+.contenedor-blog .post{
+  width: 100%;
+  /* padding-right: 50px; */
+}
+.contenedor-blog .post .article{
+  width: 100%;
+}
+.contenedor-blog .post .article .img{
+  height: 270px;
+}
 
     footer{}
     footer .fila .box{
@@ -730,4 +899,5 @@ header .icon_menu2:after{
     footer .fila .box aside{
     margin-bottom: 10px;
 }
-}
+
+

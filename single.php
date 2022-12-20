@@ -21,9 +21,9 @@
             </div>
           </div>
         </div>
-        <div class="sidebar">
+<!--        <div class="sidebar">
           <?php include 'template-sidebar.php'; ?>
-        </div>
+        </div>-->
       </section>
 
 
