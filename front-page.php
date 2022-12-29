@@ -30,7 +30,7 @@
 		<div class="podcast">
 			<h2>Podcast</h2>
 			<h2>PALABRAS en MOVIMIENTO</h2>
-			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore saepe facilis dolores doloribus voluptate tempora ab necessitatibus! Repudiandae corrupti dolor ut distinctio expedita.</p>
+
 			<div class="content">
 				<div class="box box1">
 					<p>Un espacio en el que a través de conversaciones reflexionamos sobre las palabras que de una u otra forma han dejado huellas en nuestras vidas.
