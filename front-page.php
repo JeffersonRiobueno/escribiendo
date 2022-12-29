@@ -33,7 +33,16 @@
 			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore saepe facilis dolores doloribus voluptate tempora ab necessitatibus! Repudiandae corrupti dolor ut distinctio expedita.</p>
 			<div class="content">
 				<div class="box box1">
-					<div style="background-image: url(<?php echo get_template_directory_uri().'/img/podcast.jpg'?>);" ></div>
+					<p>Un espacio en el que a través de conversaciones reflexionamos sobre las palabras que de una u otra forma han dejado huellas en nuestras vidas.
+					<p>Definiciones que están ligadas más que a experiencias personales, a historias que nos contaron: creencias sostenidas por la familia, cultura, religión y educación, que en la actualidad piden:
+					<ul>
+						<li>Resignificar conceptos.</li>
+						<li>Mirar con nuevos ojos.</li>
+						<li>Cambiar la percepción para generar la transformación personal y disfrutar la vida desde la resiliencia y con una fuerza serena en el corazón.</li>
+					</ul>
+   
+
+
 				</div>
 				<div class="box box2">
 					<a href="https://open.spotify.com/show/69F1blfhieEwTOOTxOkemp" style="background-image: url(<?php echo get_template_directory_uri().'/img/spotify.jpg'?>);" target="_blank"></a>
