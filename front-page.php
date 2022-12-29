@@ -18,9 +18,9 @@
 				<div class="box_text">
 					<div class="title">HOLA, Soy Carmen Goncalves, </div>
 					<div class="text">
-						<p>Tengo un profundo interés por las palabras como herramienta de autoconocimiento y, escribir es parte de mi vida cotidiana.</p>
+						<p>tengo un profundo interés por las palabras como herramienta de autoconocimiento y, escribir es parte de mi vida cotidiana.</p>
 						<p>Las palabras más que letras son el camino para descubrir nuestro mundo interno y llegar a la comprensión de la realidad que hemos cocreado.</p>
-						<p>Tengo un proyecto llamado escribiendo en conexión en el cual promuevo la escritura como un canal de trasformación personal en pro del bienestar integral.</p>
+						<p>Tengo un proyecto llamado escribiendo en conexión en el cual promuevo el APRENDIZAJE como un canal de trasformación personal en pro del bienestar integral.</p>
 					</div>
 				<a href="/la-palabra-como-semilla/" class="btn">Conocer programa</a>
 
